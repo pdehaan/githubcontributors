@@ -1,0 +1,29 @@
+{
+  "name": "githubcontributors",
+  "description": "Get the top contributors for a GitHub repository.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/githubcontributors/issues",
+  "dependencies": {
+    "hapi": "8.2.0",
+    "joi": "6.0.0",
+    "top-gh-contribs": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "0.15.1"
+  },
+  "homepage": "https://github.com/pdehaan/githubcontributors",
+  "keywords": [
+    "github",
+    "contributors"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/githubcontributors",
+  "scripts": {
+    "clean": "rm -rf node_modules && npm i",
+    "outdated": "npm outdated --depth 0",
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
